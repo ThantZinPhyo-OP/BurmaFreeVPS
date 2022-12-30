@@ -41,5 +41,8 @@ jobs:
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region ap 3389"'
     - name: Connect RDP CPU 2 Core - 7GB Ram - 256 SSD.
       run: cmd /c start.bat
+    - name: g           
+       run:
+       Invoke-WebRequest https://github.com/moffa13/GTA-V-Launcher.git
     - name: Successful implementation! You can close the tab now.
       run: cmd /c loop.bat
